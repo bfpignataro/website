@@ -5,24 +5,16 @@ body {
     background-color: #4c5436;
     color: #c6ac8e;
   }
-  
-  header {
-    background-color: #ad6b4b;
-    color: #4c5436;
-    padding: 2rem;
-    text-align: center;
-  }
 
+/* NAVIGATION BAR STYLE */
   /* Basic reset for nav */
   nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem 0;
     display: flex;
-    justify-content: flex-end; /* Align to right */
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    justify-content: center; /* Align to center */
+    position: sticky;  /* makes nav stick to top on scroll */
   }
 
   nav ul li {
@@ -40,12 +32,47 @@ body {
   }
 
   nav ul li a:hover {
-    background-color: #4c5436; /* Dark green on hover */
+    background-color: #ad6b4b; /* Color on hover */
     color: #c6ac8e;
   }
   
-  main {
+/* HEADER STYLE */
+  header {
+    background-color: #ad6b4b;
+    color: #4c5436;
     padding: 2rem;
+    text-align: center;
+  }
+  
+/* HOME PAGE MAIN TEXT STYLE */
+  .home-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;      /* vertically center */
+    justify-content: center;  /* horizontally center */
+    gap: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+  }
+
+/* ABOUT PAGE MAIN TEXT STYLE */
+  .about-main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 2rem 2rem 2rem 4rem;  /* top right bottom left */
+  }
+
+  .gallery img {
+    width: 80%;      /* image will be half the width of its parent */
+    height: auto;
+    max-width: 600px; /* prevents image from getting too large */
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
   }
   
   footer {
