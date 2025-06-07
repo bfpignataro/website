@@ -2,13 +2,13 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #ddcbb7;
-    color: #ad6b4b;
+    background-color: #4c5436;
+    color: #c6ac8e;
   }
   
   header {
-    background-color: #82896e;
-    color: #ad6b4b;
+    background-color: #ad6b4b;
+    color: #4c5436;
     padding: 2rem;
     text-align: center;
   }
@@ -30,7 +30,7 @@ body {
   }
 
   nav ul li a {
-    color: #ddcbb7; /* Cream text */
+    color: #c6ac8e; /* Cream text */
     font-size: 1rem;
     text-decoration: none;
     font-weight: bold;
@@ -40,8 +40,8 @@ body {
   }
 
   nav ul li a:hover {
-    background-color: #ad6b4b; /* Dark green on hover */
-    color: #ddcbb7;
+    background-color: #4c5436; /* Dark green on hover */
+    color: #c6ac8e;
   }
   
   main {
@@ -49,8 +49,8 @@ body {
   }
   
   footer {
-    background-color: #82896e;
-    color: #ad6b4b;
+    background-color: #ad6b4b;
+    color: #4c5436;
     padding: 1rem;
     text-align: center;
   }
